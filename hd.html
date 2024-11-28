@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>interface</title>
+  <style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: url(laptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+}
+nav a{
+    height: 100%;
+    padding:0 30px ;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+nav a:hover{
+    background-color: #f0f0f0;
+}
+nav li:first-child {
+    margin-right: auto;
+}
+
+  </style>
+  </head>
+  <body>
+  <nav>
+    
+<ul>
+  <li><a href="#">Administration</a></li>
+  <li><a href="administrations.php">Acceuille</a></li>
+  <li><a href="commander.html">commander</a></li>
+  <li><a href="declarer_panne.html">Declarer_pannes</a></li>
+  <li><a href="afficher_pannes.php">Afficher mes pannes</a></li>
+  <li><a href="afficher_commande.php">Afficher mes commandes</a></li>
+  
+</ul>
+  </nav>
+
+  </body>
+</html>
